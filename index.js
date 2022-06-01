@@ -3,9 +3,7 @@ let employee = {
     name:"Ezra",
     streetAddress:"Kstreet"
 }
-// console.log(employee)
-// let fname = "name"
-// console.log(employee[fname])
+
 function updateEmployeeWithKeyAndValue(employee, key, value){
     const newObj = {...employee}   
     newObj[key] = value;
